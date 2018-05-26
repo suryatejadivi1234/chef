@@ -127,7 +127,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 472794,
+      "_AVPHYS_PAGES": 549521,
       "_NPROCESSORS_CONF": 2,
       "_NPROCESSORS_ONLN": 2,
       "_PHYS_PAGES": 1010454,
@@ -401,7 +401,7 @@
         "chef_root": "/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib"
       }
     },
-    "ohai_time": 1527121458.5811439,
+    "ohai_time": 1527353798.8330524,
     "keys": {
       "ssh": {
         "host_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDbNyImmEkRBDfmOOJMhE+KFYKWrBbX8H9EHiDbSMnRwAEp8p4sPsdQquQkcxiQALhfC6DQM16N0e1B5Ll9uVq/R5jla1f/C3Ro8K9ulqIf3mFJxFyoEaJBcaGQ8IsqjY9ayOUvaqw8GwjRlqs0I9I4iD7gY7n8buNZVrnqUq81/YcZJbO3NpTwe0WloPY7mT5Ea92bBRuYmx6nYou7BZJYh6JGnErTLKRsfP9T2ExJ+HVKzKyMRdDCGmBw1urCHWrzef5UhkmQq3LEv+rGn509Tp8wXSitCYsMPVnjQu5NqeCPJ7+0JBb7wz0Jod6ZFPONLDd7xxlO/npz3/0N/kF9",
@@ -430,14 +430,14 @@
           "device_number": "0",
           "interface_id": "eni-61e62af8",
           "ipv4-associations": {
-            "52.91.33.140": "172.31.47.50"
+            "54.198.229.238": "172.31.47.50"
           },
           "local_hostname": "ip-172-31-47-50.ec2.internal",
           "local_ipv4s": "172.31.47.50",
           "mac": "0e:59:af:97:07:3e",
           "owner_id": "342954439004",
-          "public_hostname": "ec2-52-91-33-140.compute-1.amazonaws.com",
-          "public_ipv4s": "52.91.33.140",
+          "public_hostname": "ec2-54-198-229-238.compute-1.amazonaws.com",
+          "public_ipv4s": "54.198.229.238",
           "security_group_ids": "sg-29234e60",
           "security_groups": "All",
           "subnet_id": "subnet-cb5b6a90",
@@ -449,8 +449,8 @@
       },
       "placement_availability_zone": "us-east-1a",
       "profile": "default-hvm",
-      "public_hostname": "ec2-52-91-33-140.compute-1.amazonaws.com",
-      "public_ipv4": "52.91.33.140",
+      "public_hostname": "ec2-54-198-229-238.compute-1.amazonaws.com",
+      "public_ipv4": "54.198.229.238",
       "public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwjaRp51rVmBVBJsbJ+0+Y4S1SNuCiUWAV/5ZeLWSQKee6X/ORfzJdwlAYf7eVifmebYVLUH8b6vMTFBold+VF1yprpRrl37A7WHjkrRNBtGRsffXzjaELTECopgUl2DaHUhH9GGi3NrlG1Y+yr0zCk12e17RLJVBEDW5n3EFa3aH6kIuqy6OuvPMdZmNAWGoZv7qNARtlSCmzDZFddrjuDnr6NtIP9zbpKsy7suuMxyuSB+hBw2Z97BmkdvXFYdC2aIzKtq1jQvvlDzBzHC/tG1yPl8BEhDYFTaUxONbewglGIE15Nth6Gy24DIStiQ8B1RbxTbiP7o2MC6P/sAUL pashantNC\n",
       "reservation_id": "r-0ce860531a608e61a",
       "security_groups": [
@@ -463,7 +463,7 @@
       "availability_zone": "us-east-1a",
       "region": "us-east-1"
     },
-    "json?": "{\n  \"devpayProductCodes\" : null,\n  \"marketplaceProductCodes\" : null,\n  \"version\" : \"2017-09-30\",\n  \"instanceId\" : \"i-07dcac7814c776b9f\",\n  \"billingProducts\" : null,\n  \"instanceType\" : \"t2.medium\",\n  \"availabilityZone\" : \"us-east-1a\",\n  \"kernelId\" : null,\n  \"ramdiskId\" : null,\n  \"accountId\" : \"342954439004\",\n  \"architecture\" : \"x86_64\",\n  \"pendingTime\" : \"2018-05-19T21:50:43Z\",\n  \"imageId\" : \"ami-1853ac65\",\n  \"privateIp\" : \"172.31.47.50\",\n  \"region\" : \"us-east-1\"\n}",
+    "json?": "{\n  \"privateIp\" : \"172.31.47.50\",\n  \"devpayProductCodes\" : null,\n  \"marketplaceProductCodes\" : null,\n  \"version\" : \"2017-09-30\",\n  \"instanceId\" : \"i-07dcac7814c776b9f\",\n  \"billingProducts\" : null,\n  \"instanceType\" : \"t2.medium\",\n  \"kernelId\" : null,\n  \"ramdiskId\" : null,\n  \"availabilityZone\" : \"us-east-1a\",\n  \"accountId\" : \"342954439004\",\n  \"architecture\" : \"x86_64\",\n  \"imageId\" : \"ami-1853ac65\",\n  \"pendingTime\" : \"2018-05-26T12:37:36Z\",\n  \"region\" : \"us-east-1\"\n}",
     "kernel": {
       "name": "Linux",
       "release": "4.14.33-51.37.amzn1.x86_64",
@@ -634,14 +634,14 @@
           "refcount": "0",
           "version": "2.13"
         },
-        "xen_blkfront": {
-          "size": "49152",
-          "refcount": "2"
-        },
         "libata": {
           "size": "266240",
           "refcount": "1",
           "version": "3.00"
+        },
+        "xen_blkfront": {
+          "size": "49152",
+          "refcount": "2"
         },
         "scsi_mod": {
           "size": "245760",
@@ -819,7 +819,7 @@
           ],
           "encapsulation": "Ethernet",
           "addresses": {
-            "02:42:49:20:C0:42": {
+            "02:42:EE:4F:9A:3C": {
               "family": "lladdr"
             },
             "172.17.0.1": {
@@ -854,16 +854,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "254269",
-              "packets": "846",
+              "bytes": "47085",
+              "packets": "219",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "254269",
-              "packets": "846",
+              "bytes": "47085",
+              "packets": "219",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -872,16 +872,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "127337968",
-              "packets": "598390",
+              "bytes": "7605900",
+              "packets": "32617",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "286891161",
-              "packets": "682514",
+              "bytes": "11185599",
+              "packets": "39037",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1113,6 +1113,13 @@
           "uid": 48,
           "shell": "/sbin/nologin",
           "gecos": "Apache"
+        },
+        "postgres": {
+          "dir": "/var/lib/pgsql",
+          "gid": 26,
+          "uid": 26,
+          "shell": "/bin/bash",
+          "gecos": "PostgreSQL Server"
         }
       },
       "group": {
@@ -1402,34 +1409,40 @@
           "members": [
 
           ]
+        },
+        "postgres": {
+          "gid": 26,
+          "members": [
+
+          ]
         }
       }
     },
     "current_user": "root",
     "cloud_v2": {
       "public_ipv4_addrs": [
-        "52.91.33.140"
+        "54.198.229.238"
       ],
       "local_ipv4_addrs": [
         "172.31.47.50"
       ],
       "provider": "ec2",
-      "public_hostname": "ec2-52-91-33-140.compute-1.amazonaws.com",
+      "public_hostname": "ec2-54-198-229-238.compute-1.amazonaws.com",
       "local_hostname": "ip-172-31-47-50.ec2.internal",
-      "public_ipv4": "52.91.33.140",
+      "public_ipv4": "54.198.229.238",
       "local_ipv4": "172.31.47.50"
     },
     "cloud": {
       "public_ipv4_addrs": [
-        "52.91.33.140"
+        "54.198.229.238"
       ],
       "local_ipv4_addrs": [
         "172.31.47.50"
       ],
       "provider": "ec2",
-      "public_hostname": "ec2-52-91-33-140.compute-1.amazonaws.com",
+      "public_hostname": "ec2-54-198-229-238.compute-1.amazonaws.com",
       "local_hostname": "ip-172-31-47-50.ec2.internal",
-      "public_ipv4": "52.91.33.140",
+      "public_ipv4": "54.198.229.238",
       "local_ipv4": "172.31.47.50"
     },
     "filesystem": {
@@ -1475,12 +1488,12 @@
         },
         "/dev/xvda1": {
           "kb_size": "41151788",
-          "kb_used": "8466416",
-          "kb_available": "32585124",
+          "kb_used": "8506512",
+          "kb_available": "32545028",
           "percent_used": "21%",
           "total_inodes": "2621440",
-          "inodes_used": "134909",
-          "inodes_available": "2486531",
+          "inodes_used": "136616",
+          "inodes_available": "2484824",
           "inodes_percent_used": "6%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1630,12 +1643,12 @@
         },
         "/": {
           "kb_size": "41151788",
-          "kb_used": "8466416",
-          "kb_available": "32585124",
+          "kb_used": "8506512",
+          "kb_available": "32545028",
           "percent_used": "21%",
           "total_inodes": "2621440",
-          "inodes_used": "134909",
-          "inodes_available": "2486531",
+          "inodes_used": "136616",
+          "inodes_available": "2484824",
           "inodes_percent_used": "6%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1859,13 +1872,13 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "41151788",
-          "kb_used": "8466416",
-          "kb_available": "32585124",
+          "kb_used": "8506512",
+          "kb_available": "32545028",
           "percent_used": "21%",
           "mount": "/",
           "total_inodes": "2621440",
-          "inodes_used": "134909",
-          "inodes_available": "2486531",
+          "inodes_used": "136616",
+          "inodes_available": "2484824",
           "inodes_percent_used": "6%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2093,12 +2106,12 @@
         },
         "/dev/xvda1": {
           "kb_size": "41151788",
-          "kb_used": "8466416",
-          "kb_available": "32585124",
+          "kb_used": "8506512",
+          "kb_available": "32545028",
           "percent_used": "21%",
           "total_inodes": "2621440",
-          "inodes_used": "134909",
-          "inodes_available": "2486531",
+          "inodes_used": "136616",
+          "inodes_available": "2484824",
           "inodes_percent_used": "6%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2248,12 +2261,12 @@
         },
         "/": {
           "kb_size": "41151788",
-          "kb_used": "8466416",
-          "kb_available": "32585124",
+          "kb_used": "8506512",
+          "kb_available": "32545028",
           "percent_used": "21%",
           "total_inodes": "2621440",
-          "inodes_used": "134909",
-          "inodes_available": "2486531",
+          "inodes_used": "136616",
+          "inodes_available": "2484824",
           "inodes_percent_used": "6%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2477,13 +2490,13 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "41151788",
-          "kb_used": "8466416",
-          "kb_available": "32585124",
+          "kb_used": "8506512",
+          "kb_available": "32545028",
           "percent_used": "21%",
           "mount": "/",
           "total_inodes": "2621440",
-          "inodes_used": "134909",
-          "inodes_available": "2486531",
+          "inodes_used": "136616",
+          "inodes_available": "2484824",
           "inodes_percent_used": "6%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2697,24 +2710,24 @@
         "surplus": "0"
       },
       "total": "4041816kB",
-      "free": "1888932kB",
-      "available": "2418828kB",
-      "buffers": "180820kB",
-      "cached": "487588kB",
-      "active": "1746096kB",
-      "inactive": "228608kB",
-      "dirty": "80kB",
-      "writeback": "8kB",
-      "anon_pages": "1306360kB",
-      "mapped": "110708kB",
-      "slab": "143608kB",
-      "slab_reclaimable": "127508kB",
-      "slab_unreclaim": "16100kB",
-      "page_tables": "10432kB",
+      "free": "2196708kB",
+      "available": "2479476kB",
+      "buffers": "48212kB",
+      "cached": "410924kB",
+      "active": "1546744kB",
+      "inactive": "197900kB",
+      "dirty": "1600kB",
+      "writeback": "0kB",
+      "anon_pages": "1285544kB",
+      "mapped": "110448kB",
+      "slab": "67108kB",
+      "slab_reclaimable": "51884kB",
+      "slab_unreclaim": "15224kB",
+      "page_tables": "10136kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "2020908kB",
-      "committed_as": "1711224kB",
+      "committed_as": "1709400kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -2727,7 +2740,7 @@
         "model": "63",
         "model_name": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz",
         "stepping": "2",
-        "mhz": "2400.242",
+        "mhz": "2400.023",
         "cache_size": "30720 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -2804,7 +2817,7 @@
         "model": "63",
         "model_name": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz",
         "stepping": "2",
-        "mhz": "2400.242",
+        "mhz": "2400.023",
         "cache_size": "30720 KB",
         "physical_id": "0",
         "core_id": "1",
@@ -2879,10 +2892,10 @@
       "real": 1,
       "cores": 2
     },
-    "uptime_seconds": 354802,
-    "uptime": "4 days 02 hours 33 minutes 22 seconds",
-    "idletime_seconds": 687785,
-    "idletime": "7 days 23 hours 03 minutes 05 seconds",
+    "uptime_seconds": 15531,
+    "uptime": "4 hours 18 minutes 51 seconds",
+    "idletime_seconds": 30009,
+    "idletime": "8 hours 20 minutes 09 seconds",
     "pci": {
       "00:00.0": {
         "class_name": "Host bridge",
@@ -3845,6 +3858,13 @@
         "version": "8.22",
         "release": "15.52.amzn1",
         "installdate": "1520405198",
+        "arch": "x86_64"
+      },
+      "postgresql8-server": {
+        "epoch": "0",
+        "version": "8.4.20",
+        "release": "5.52.amzn1",
+        "installdate": "1527288798",
         "arch": "x86_64"
       },
       "cracklib": {
@@ -5184,6 +5204,13 @@
         "installdate": "1526753578",
         "arch": "x86_64"
       },
+      "postgresql8": {
+        "epoch": "0",
+        "version": "8.4.20",
+        "release": "5.52.amzn1",
+        "installdate": "1527288798",
+        "arch": "x86_64"
+      },
       "javapackages-tools": {
         "epoch": "0",
         "version": "0.9.1",
@@ -6246,6 +6273,13 @@
         "version": "0.4.3",
         "release": "4.6.amzn1",
         "installdate": "1520405197",
+        "arch": "x86_64"
+      },
+      "postgresql8-libs": {
+        "epoch": "0",
+        "version": "8.4.20",
+        "release": "5.52.amzn1",
+        "installdate": "1527288797",
         "arch": "x86_64"
       },
       "libblkid": {

@@ -15,7 +15,7 @@ service 'apache2' do
 end
 
 execute "example" do
-  command "curl -iksS -H \"Content-Type: application/json\" -X POST -d '{\"host\":\"server1.server.com\"}' \"http://nagios/disable\" | grep success"
+  command 'mkdir chef-base && export CHEF_WORK_DIR="~/chef-base" && echo $CHEF_WORK_DIR'
   retries 4
   retry_delay 3
   ignore_failure false
