@@ -13,3 +13,11 @@ service 'apache2' do
 	service_name 'httpd'
 	action [:start, :enable]
 end
+
+execute "example" do
+  command "curl -iksS -H \"Content-Type: application/json\" -X POST -d '{\"host\":\"server1.server.com\"}' \"http://nagios/disable\" | grep success"
+  retries 4
+  retry_delay 3
+  ignore_failure false
+end
+
